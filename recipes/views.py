@@ -3,6 +3,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def view(request):
-    return render(request,'recipes/index.html',context= {
-        'name':'Artur'
-    })
+    return render(request,'recipes/pages/index.html')
